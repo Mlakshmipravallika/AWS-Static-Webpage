@@ -66,6 +66,7 @@ Log in to your AWS account or create one if you don't have an AWS account alread
 1. With in few minutes you can be able to access your static website using your custom domain or the S3 bucket's endpoint URL.
 2. Send this URL to your friend try to access your website <h2> !!!!! WOW !!! </h2>
 
+3. I hosted my portfolio webpage in s3 you can refer webpage code above but remember one thing s3 free tier can give only 2000 requests for free if you reach above limit then s3 going to charge u.
 
 
 
