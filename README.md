@@ -1,6 +1,9 @@
 # AWS-Static-Webpage
 Hosting Static Webpage on AWS Using Amazon S3 and Route 53
 
+![p1](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/71d52a43-1e71-46f3-885e-2109b2a69418)
+
+
 Steps to host a static Website in s3 Bucket
 
 1. Sign in to AWS Management Console
