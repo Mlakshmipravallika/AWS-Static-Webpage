@@ -7,7 +7,7 @@ Steps to host a static Website in s3 Bucket
 2. Create an S3 Buctet
 3. Upload Your website Files, Set permissions
 4. Enable Static Website Hosting
-5. DNS Configuration
+5. Obtain Your S3 Bucket's Website Endpoint
 6. Testing
 
 
@@ -53,6 +53,18 @@ Log in to your AWS account or create one if you don't have an AWS account alread
 
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/3b8cd98e-6e9e-43f8-8b17-d72f12dbf899)
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/3b8d57f9-b64f-4458-8253-fbe3ed58dce0)
+
+# Step 5: Obtain Your S3 Bucket's Website Endpoint:
+
+1. Select your S3 bucket that hosts your static website.
+2. In the bucket properties, go to the "Static website hosting" section.
+3. You'll see an endpoint URL like this: http://your-bucket-name.s3-website-your-region.amazonaws.com/ or http://your-bucket-name.s3.amazonaws.com/ (if you didn't enable website hosting).
+4. Copy this URL and use it or you can provide custome domine by using aws famous service like Route 53 (which is chargable)
+
+# Step 6: Testing:
+
+1. With in few minutes you can be able to access your static website using your custom domain or the S3 bucket's endpoint URL.
+2. Send this URL to your friend try to access your website <h2> !!!!! WOW !!! </h2>
 
 
 
