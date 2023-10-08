@@ -5,11 +5,10 @@ Steps to host a static Website in s3 Bucket
 
 1. Sign in to AWS Management Console
 2. Create an S3 Buctet
-3. Upload Your website Files
-4. Set permissions
-5. Enable Static Website Hosting
-6. DNS Configuration
-7. Testing
+3. Upload Your website Files, Set permissions
+4. Enable Static Website Hosting
+5. DNS Configuration
+6. Testing
 
 
 # Step 1: Sign in to AWS Management Console
@@ -34,7 +33,8 @@ Log in to your AWS account or create one if you don't have an AWS account alread
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/a6471f3e-bd6f-4620-aef9-3559bdbf1e3a)
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/c4e9a203-7e49-4fef-98cf-381bbd32de2d)
 
-# Step 2: Upload your Website Files
+# Step 3: Upload your Website Files and Set Permissions
+
 1. In the S3 bucket, navigate to the "Objects" tab.
 2. Click the "Upload" button to upload your static website files
 3. Grant public access and access to other AWS accounts.
@@ -42,6 +42,21 @@ Log in to your AWS account or create one if you don't have an AWS account alread
    
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/b54ed426-bf9f-4b8c-a940-ed3ce64886d7)
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/6fc69562-f6bd-4aae-81f6-b0771a7e266f)
+
+# Step 4: Enable Static Website Hosting
+
+1. Select the newly created S3 bucket from the S3 console.
+2. In the bucket properties, navigate to the "Static website hosting" section.
+3. Choose "Use this bucket to host a website."
+4. Enter the index document (e.g., "index.html") and error document (optional, e.g., "error.html") if you have one.
+5. Click "Save."
+
+![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/3b8cd98e-6e9e-43f8-8b17-d72f12dbf899)
+![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/3b8d57f9-b64f-4458-8253-fbe3ed58dce0)
+
+
+
+
 
 
 
