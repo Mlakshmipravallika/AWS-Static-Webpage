@@ -34,6 +34,18 @@ Log in to your AWS account or create one if you don't have an AWS account alread
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/a6471f3e-bd6f-4620-aef9-3559bdbf1e3a)
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/c4e9a203-7e49-4fef-98cf-381bbd32de2d)
 
+# Step 2: Upload your Website Files
+1. In the S3 bucket, navigate to the "Objects" tab.
+2. Click the "Upload" button to upload your static website files
+3. Grant public access and access to other AWS accounts.
+4. Finally review and click on upload Button
+   
+![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/b54ed426-bf9f-4b8c-a940-ed3ce64886d7)
+![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/6fc69562-f6bd-4aae-81f6-b0771a7e266f)
+
+
+
+
 
 
 
