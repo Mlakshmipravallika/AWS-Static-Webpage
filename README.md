@@ -23,15 +23,18 @@ Log in to your AWS account or create one if you don't have an AWS account alread
 3. Enter a unique and globally-unique bucket name (e.g., "my-static-website").
 4. Choose the region where you want to create the bucket.
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/5b68fc59-b390-487b-8a34-0bf11503ce8d)
-<h2>set permissions to Bucket and Objects</h2>
+<h3>set permissions to Bucket and Objects</h3>
 5.If you want your bucket to be publicly accessible, you can adjust these settings or you can leave them and adjust later
+
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/9a346c50-e122-4c2c-b4a8-e730f62b8945)
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/b0a2054e-8591-4ecf-b7ba-a753d631fa89)
-<h2>Bucket Versioning</h2>
+<h3>Bucket Versioning</h3>
 6. Enable Bucket versioning to keep multiple versions of objects in the bucket. This can help with data recovery and compliance.
 7. Give tags to track your bucket
+
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/a6471f3e-bd6f-4620-aef9-3559bdbf1e3a)
 8. Leave remainig settings as it is and click on create Bucket.
+
 ![image](https://github.com/Mlakshmipravallika/AWS-Static-Webpage/assets/89599922/c4e9a203-7e49-4fef-98cf-381bbd32de2d)
 
 
